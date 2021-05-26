@@ -1,0 +1,13 @@
+C:\Users\suruc\source\repos\EntertainmentWeb\bin\Debug\netcoreapp3.1\EntertainmentWeb.exe
+C:\Users\suruc\source\repos\EntertainmentWeb\bin\Debug\netcoreapp3.1\EntertainmentWeb.deps.json
+C:\Users\suruc\source\repos\EntertainmentWeb\bin\Debug\netcoreapp3.1\EntertainmentWeb.runtimeconfig.json
+C:\Users\suruc\source\repos\EntertainmentWeb\bin\Debug\netcoreapp3.1\EntertainmentWeb.runtimeconfig.dev.json
+C:\Users\suruc\source\repos\EntertainmentWeb\bin\Debug\netcoreapp3.1\EntertainmentWeb.dll
+C:\Users\suruc\source\repos\EntertainmentWeb\bin\Debug\netcoreapp3.1\EntertainmentWeb.pdb
+C:\Users\suruc\source\repos\EntertainmentWeb\obj\Debug\netcoreapp3.1\EntertainmentWeb.csprojAssemblyReference.cache
+C:\Users\suruc\source\repos\EntertainmentWeb\obj\Debug\netcoreapp3.1\EntertainmentWeb.AssemblyInfoInputs.cache
+C:\Users\suruc\source\repos\EntertainmentWeb\obj\Debug\netcoreapp3.1\EntertainmentWeb.AssemblyInfo.cs
+C:\Users\suruc\source\repos\EntertainmentWeb\obj\Debug\netcoreapp3.1\EntertainmentWeb.csproj.CoreCompileInputs.cache
+C:\Users\suruc\source\repos\EntertainmentWeb\obj\Debug\netcoreapp3.1\EntertainmentWeb.dll
+C:\Users\suruc\source\repos\EntertainmentWeb\obj\Debug\netcoreapp3.1\EntertainmentWeb.pdb
+C:\Users\suruc\source\repos\EntertainmentWeb\obj\Debug\netcoreapp3.1\EntertainmentWeb.genruntimeconfig.cache

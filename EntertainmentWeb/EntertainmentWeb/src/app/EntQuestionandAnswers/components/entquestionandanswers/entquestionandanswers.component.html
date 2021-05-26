@@ -1,0 +1,34 @@
+
+<!doctype html>
+<html ng-app="ui.bootstrap.demo">
+
+<head>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.js"></script>
+  <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.13.0.js"></script>
+  <script src="example.js"></script>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+        <div class="center">
+          <strong>Entertainment</strong>
+        </div>
+        <div *ngIf = "emptyAnswer != 0" class=" alert alert-warning"><span class=" alert alert-warning glyphicon glyphicon-exclamation-sign"></span><span>You have not answered {{emptyAnswer}} questions</span></div>
+        <div formArrayName="answeropt">
+          <div *ngFor="let pg of pages;let i = index">
+            {{i+1}}. {{pg.question}}
+            &nbsp;
+            <div *ngFor="let option of pg.options; let j = index">
+              <input type="radio" id="op_{{i+1}}_{{j+1}}" [formControlName]=i  [value]=option />
+              &nbsp;
+              <i>{{option}}</i>
+            </div>
+          </div>
+        </div>
+        &nbsp;
+        <button class="button" type="submit" >SUBMIT</button>
+        You have Answered {{CorrectAnswer}} CorrectAnswers and {{IncorrectAnswer}} IncorrectAnswers
+</form>
+</body>
+</html>
